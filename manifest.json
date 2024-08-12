@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect Extension",
+  "version": "1.0",
+  "description": "A simple Chrome extension that redirects to a new URL when clicked.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Redirect to Next Question"
+  }
+}
